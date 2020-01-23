@@ -2,24 +2,30 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    background-color: rgb(189, 236, 252);
   }
   
   textarea{
-    background: transparent;
+    background: rgb(189, 236, 252);
     border: none;
     resize: none;
     color: #000000;
-    border-left: 1px solid black;
+    border-top: 1px solid white;;
+    border-bottom: 1px solid white;;
+    border-right: 1px solid white;;
     padding: 10px;
     box-sizing:border-box;
+  
+    
   }
   
-  .jumbotron {
+  .header1 {
     text-align: center;
     background-color: transparent;
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
+    align-content: center;
   }
 
   .col {
@@ -32,18 +38,22 @@ body {
     font-size: 32px;
     padding:1%;
     margin:none;
+    border: 1px thin  black;
   }
   
   .row {
-    white-space: pre-wrap;
-    height: 80px;
     border-top: 1px solid white;;
+    border-bottom: 1px solid white;;
+    border-right: 1px solid white;;
+    height: 80px;
+    
   }
   
-  .hour {
+  .time {
     background-color: #ffffff;
     color: #000000;
-    border-top: 1px dashed #000000;
+    border: 1px dashed #000000;
+    padding:5%;
   }
   
   .past {
@@ -56,11 +66,13 @@ body {
     color: white;
   }
   
-  .future {
-    background-color: #77dd77;
+  .type {
     color: white;
+    height: 10px;
+    
   }
   
+
   .saveDiv {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
@@ -78,3 +90,10 @@ body {
       height:5px;
       widows: 5px;
   }
+.time17 {
+  height: 10px;
+}
+
+h1 {
+  font: ;
+}
